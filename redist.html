@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download REDIST</title>
+    <script>
+        window.onload = function() {
+            const link = document.createElement('a');
+            link.href = './the-REDIST-FOLDER.zip'; // Percorso del file
+            link.download = 'the-REDIST-FOLDER.zip';
+            link.click();
+        };
+    </script>
+</head>
+<body>
+    <h1>Grazie per il download!</h1>
+    <p>Il download dovrebbe iniziare automaticamente. Se non parte, <a href="./the-REDIST-FOLDER.zip" download>Clicca qui</a>.</p>
+</body>
+</html>
