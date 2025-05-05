@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Unblocker</title>
+    <style>
+        body {
+            background-color: black; /* Sfondo nero */
+            color: green; /* Testo verde */
+            font-family: Arial, sans-serif; /* Font leggibile */
+            text-align: center; /* Centrare il contenuto */
+            margin: 0;
+            padding: 0;
+        }
+        a {
+            color: lime; /* Link verde acceso */
+            text-decoration: none; /* Rimuove la sottolineatura */
+        }
+        a:hover {
+            text-decoration: underline; /* Sottolinea al passaggio del mouse */
+        }
+    </style>
+    <script>
+        window.onload = function() {
+            const link = document.createElement('a');
+            link.href = './theunblocker.zip'; // Percorso del file
+            link.download = 'theunblocker.zip';
+            link.click();
+        };
+    </script>
+</head>
+<body>
+    <h1>Now Downloading The Unblocker..</h1>
+    <p>
+        Unlock websites, BETA (windows). <br>
+        If the download doesn't start, click 
+        <a href="./theunblocker.zip" download>here</a>.
+    </p>
+</body>
+</html>
